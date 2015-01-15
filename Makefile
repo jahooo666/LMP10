@@ -1,5 +1,5 @@
 hermite: main.o splines.o points.o aproksymator_na_hermicie.o gaus/libge.a
-	$(CC) -o hermite main.o splines.o points.o aproksymator_na_hermicie.o -L gaus -l ge
+	$(CC) -o hermite main.o splines.o points.o aproksymator_na_hermicie.o -L gaus -l ge 
 
 aprox: main.o splines.o points.o aproksymator_na_bazie.o gaus/libge.a
 	$(CC) -o aprox main.o splines.o points.o aproksymator_na_bazie.o -L gaus -l ge
